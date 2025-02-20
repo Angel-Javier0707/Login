@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Dashboard</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+
+  <body>
+    <div class="contenedor_padre">
+      <!-- Contenedor login -->
+      <div class="contenedor_login">
+        <form action="validacion.php" method="post" class="login">
+          <div class="encabezado_login">
+            <div class="span"></div>
+            <div class="info_encabezado">
+              <h1>Recursos Humanos</h1>
+              <h3>Seguridad a tus empleados</h3>
+            </div>
+          </div>
+
+          <div class="titulos_login_C">
+            <h2 class="titulo_L">Login</h2>
+            <h2>Registro</h2>
+          </div>
+
+          <div class="contedor_info_L">
+            <div class="info_login">
+              <div class="input-group">
+                <input
+                  required=""
+                  type="text"
+                  name="nombre"
+                  autocomplete="off"
+                  class="input"
+                />
+                <label class="user-label">Nombre:</label>
+              </div>
+              <div class="input-group">
+                <input
+                  required=""
+                  type="password"
+                  name="contraseña"
+                  autocomplete="off"
+                  class="input input-S"
+                />
+                <label class="user-label">Contraseña:</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="contenedor_mostrar_P">
+            <p>Mostrar Contraseña</p>
+            <input type="checkbox" name="validacion" id="validacion" />
+          </div>
+
+          <div class="contenedor_acciones">
+            <input type="button" value="Iniciar" class="btn" name="Iniciar" />
+          </div>
+        </form>
+       
+      </div>
+
+      <div class="contenedor_portada">
+        <div class="contenido_port">
+          <img src="Image/logo.png" alt="" />
+          <div class="info_port">
+            <h2>Maradrycmy</h2>
+            <h3>comunication</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
